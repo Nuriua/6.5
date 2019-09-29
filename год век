@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int y, c;
+  cout<< "Vvedite god: ";
+  cin>> y;
+  c=((y-1)/100)+1;
+  cout<<c;
+    return 0;
+}
